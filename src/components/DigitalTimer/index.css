@@ -1,0 +1,125 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1, #defafe);
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.main-heading {
+  color: #0f172a;
+  font-size: 30px;
+  margin-top: 70px;
+}
+
+@media (min-width: 768px) {
+  .timer-content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+  }
+}
+
+.timer-bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.timer-container {
+  background-color: #ffffff;
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.timer {
+  margin: 0px;
+  color: #00d9f5;
+}
+.timer-state {
+  margin: 0px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.timer-controller-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.button-text {
+  font-weight: 500;
+  font-size: 20px;
+}
+.button-text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.icon-button {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.set-time-para {
+  font-weight: 500;
+  font-size: 25px;
+}
+.limit-change-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.time-limit-container {
+  background-image: linear-gradient(to right, #16cc9f, #00d9f5);
+  background-size: cover;
+  width: 70px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.minus-button {
+  background-color: transparent;
+  border: none;
+  font-size: 40px;
+  margin-right: 20px;
+}
+
+.plus-button {
+  background-color: transparent;
+  border: none;
+  font-size: 40px;
+  margin-right: 20px;
+}
+
+.time-limit-text {
+  font-weight: 500;
+  font-size: 25px;
+}
